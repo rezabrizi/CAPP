@@ -22,5 +22,6 @@ class GAT(torch.nn.Module):
             x = x + x_in 
         x = global_add_pool(x, batch)
         # decode
-        x = self.mlp2(x) 
+        x = self.mlp2(x)
+        x = x.squeeze(-1)
         return x

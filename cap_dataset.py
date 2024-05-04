@@ -78,10 +78,12 @@ class CascadeRegression(InMemoryDataset):
             cascade = cascade.strip().split()
             data_name = cascade[0]
             if self.task == "regression":
-                seeds = list(map(int, cascade[1:-1]))
-                activation_count = float(cascade[-1])  # This might be used for labels or further processing
+                #seeds = list(map(int, cascade[1:-1]))
+                #activation_count = float(cascade[-1])  # This might be used for labels or further processing
+                activations = [node_activation.split(':') for node_activation in cascade[1:]]
+                seeds = [int(node) for node, time in activations if int(time) <= self.observation]
+                final_activations = [int(node) for node, _ in activations]
             elif self.task == "classification":
-
                 activations = [node_activation.split(':') for node_activation in cascade[1:]]
                 seeds = [int(node) for node, time in activations if int(time) <= self.observation]
                 final_activations = [int(node) for node, _ in activations]
@@ -94,7 +96,7 @@ class CascadeRegression(InMemoryDataset):
                 X[node] = node_row
             
             if self.task == "regression":
-                y = torch.tensor([activation_count], dtype=torch.float)
+                y = torch.tensor([len(final_activations)], dtype=torch.float)
             elif self.task == "classification":
                 y = torch.tensor([1 if node in final_activations else 0 for node in range(len(node_features))], dtype=torch.long)
             data.append(Data(x=X, y=y, edge_index=self.edge_index_tensor, cascade_name=data_name))
