@@ -52,7 +52,7 @@ class CascadeRegression(InMemoryDataset):
         return 'data.pt'
     
     def __repr__(self):
-        return f'{self.__class__.__name__} network: {self.name} task: {self.task} observation-window t={str(self.observation)} (Number of graphs: {len(self)}, Number of features [activation, deg cent, eigen cent, btwns cemt]: {self.num_features})'
+        return f'{self.__class__.__name__} \nnetwork: {self.name} \ntask: {self.task} \nobservation-window t={str(self.observation)} \n(Number of graphs: {len(self)}, Number of features [activation, deg cent, eigen cent, btwns cemt]: {self.num_features})'
 
     def process(self):
         cascades_file_path, node_features_file_path = self.raw_paths
@@ -76,10 +76,12 @@ class CascadeRegression(InMemoryDataset):
         # however, the X will always be the number of nodes time the node features which is going to be 
         for cascade in cascades_data:
             cascade = cascade.strip().split()
+            data_name = cascade[0]
             if self.task == "regression":
                 seeds = list(map(int, cascade[1:-1]))
                 activation_count = float(cascade[-1])  # This might be used for labels or further processing
             elif self.task == "classification":
+
                 activations = [node_activation.split(':') for node_activation in cascade[1:]]
                 seeds = [int(node) for node, time in activations if int(time) <= self.observation]
                 final_activations = [int(node) for node, _ in activations]
@@ -94,8 +96,8 @@ class CascadeRegression(InMemoryDataset):
             if self.task == "regression":
                 y = torch.tensor([activation_count], dtype=torch.float)
             elif self.task == "classification":
-                y = torch.tensor([1 if node in seeds else 0 for node in range(len(node_features))], dtype=torch.long)
-            data.append(Data(x=X, y=y, edge_index=self.edge_index_tensor))
+                y = torch.tensor([1 if node in final_activations else 0 for node in range(len(node_features))], dtype=torch.long)
+            data.append(Data(x=X, y=y, edge_index=self.edge_index_tensor, cascade_name=data_name))
 
         self.save(data, self.processed_paths[0])
         
