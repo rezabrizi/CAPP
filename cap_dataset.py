@@ -1,4 +1,6 @@
 import torch
+import numpy as np
+import copy
 import os
 import pandas as pd
 from collections import defaultdict 
@@ -28,7 +30,6 @@ class CascadeRegression(InMemoryDataset):
             sources.append(row[1])
             dests.append(row[0])
         return torch.tensor([sources, dests], dtype=torch.long)
-
 
     @property 
     def raw_dir(self):
@@ -68,7 +69,8 @@ class CascadeRegression(InMemoryDataset):
         for node_feature in node_features_data: 
             node, degree_centrality, eigenvector_centrality, betweeness_centrality = node_feature.split()
             node = int(node)   
-            centralities = [float(degree_centrality), float(eigenvector_centrality), float(betweeness_centrality)]
+            centralities = [float(degree_centrality), float(eigenvector_centrality), float(betweeness_centrality), 0]
+            centralities = np.array(centralities)
             node_features[node] = centralities
 
         # Need to go through every cascade and create the Data object
@@ -89,11 +91,13 @@ class CascadeRegression(InMemoryDataset):
                 final_activations = [int(node) for node, _ in activations]
 
             seeds = set(seeds)
-            X = torch.empty((len(node_features), len(node_features[0]) + 1)) 
+            X = torch.empty((len(node_features), len(node_features[0]))) 
             for node, features in node_features.items():
                 activation_status = 1 if node in seeds else 0
-                node_row = torch.tensor([activation_status] + features)
-                X[node] = node_row
+                node_feature = copy.deepcopy(features)
+                node_feature[3] = activation_status
+                node_feature = torch.tensor(node_feature)
+                X[node] = node_feature
             
             if self.task == "regression":
                 y = torch.tensor([len(final_activations)], dtype=torch.float)
