@@ -1,0 +1,900 @@
+Batch 40, MRSE Loss: 6888.18
+Batch 80, MRSE Loss: 0.50
+Batch 120, MRSE Loss: 0.51
+Batch 160, MRSE Loss: 0.49
+Batch 200, MRSE Loss: 0.49
+Batch 240, MRSE Loss: 0.45
+Batch 280, MRSE Loss: 0.44
+Batch 320, MRSE Loss: 0.47
+Epoch 1: Train Loss: 837.8888, Val MRSE Loss: 0.5211, Val MAPE Loss: 0.673, Val WroPerc: 0.7218
+Batch 40, MRSE Loss: 0.44
+Batch 80, MRSE Loss: 0.42
+Batch 120, MRSE Loss: 0.41
+Batch 160, MRSE Loss: 0.40
+Batch 200, MRSE Loss: 0.39
+Batch 240, MRSE Loss: 0.39
+Batch 280, MRSE Loss: 0.37
+Batch 320, MRSE Loss: 0.41
+Epoch 2: Train Loss: 0.4049, Val MRSE Loss: 0.4160, Val MAPE Loss: 0.5587, Val WroPerc: 0.5775
+Batch 40, MRSE Loss: 0.37
+Batch 80, MRSE Loss: 0.40
+Batch 120, MRSE Loss: 0.37
+Batch 160, MRSE Loss: 0.37
+Batch 200, MRSE Loss: 0.38
+Batch 240, MRSE Loss: 0.38
+Batch 280, MRSE Loss: 0.43
+Batch 320, MRSE Loss: 0.40
+Epoch 3: Train Loss: 0.3871, Val MRSE Loss: 0.4034, Val MAPE Loss: 0.5513, Val WroPerc: 0.5669
+Batch 40, MRSE Loss: 0.39
+Batch 80, MRSE Loss: 0.33
+Batch 120, MRSE Loss: 0.41
+Batch 160, MRSE Loss: 0.41
+Batch 200, MRSE Loss: 0.43
+Batch 240, MRSE Loss: 0.37
+Batch 280, MRSE Loss: 0.38
+Batch 320, MRSE Loss: 0.39
+Epoch 4: Train Loss: 0.3861, Val MRSE Loss: 0.4078, Val MAPE Loss: 0.5542, Val WroPerc: 0.5775
+Batch 40, MRSE Loss: 0.37
+Batch 80, MRSE Loss: 0.42
+Batch 120, MRSE Loss: 0.42
+Batch 160, MRSE Loss: 0.40
+Batch 200, MRSE Loss: 0.36
+Batch 240, MRSE Loss: 0.38
+Batch 280, MRSE Loss: 0.36
+Batch 320, MRSE Loss: 0.40
+Epoch 5: Train Loss: 0.3873, Val MRSE Loss: 0.4038, Val MAPE Loss: 0.552, Val WroPerc: 0.5775
+Batch 40, MRSE Loss: 0.42
+Batch 80, MRSE Loss: 0.38
+Batch 120, MRSE Loss: 0.41
+Batch 160, MRSE Loss: 0.41
+Batch 200, MRSE Loss: 0.40
+Batch 240, MRSE Loss: 0.35
+Batch 280, MRSE Loss: 0.38
+Batch 320, MRSE Loss: 0.35
+Epoch 6: Train Loss: 0.3883, Val MRSE Loss: 0.4115, Val MAPE Loss: 0.5568, Val WroPerc: 0.5775
+Batch 40, MRSE Loss: 0.43
+Batch 80, MRSE Loss: 0.38
+Batch 120, MRSE Loss: 0.35
+Batch 160, MRSE Loss: 0.41
+Batch 200, MRSE Loss: 0.37
+Batch 240, MRSE Loss: 0.38
+Batch 280, MRSE Loss: 0.38
+Batch 320, MRSE Loss: 0.41
+Epoch 7: Train Loss: 0.3876, Val MRSE Loss: 0.4029, Val MAPE Loss: 0.5519, Val WroPerc: 0.5775
+Batch 40, MRSE Loss: 0.39
+Batch 80, MRSE Loss: 0.36
+Batch 120, MRSE Loss: 0.41
+Batch 160, MRSE Loss: 0.41
+Batch 200, MRSE Loss: 0.40
+Batch 240, MRSE Loss: 0.37
+Batch 280, MRSE Loss: 0.36
+Batch 320, MRSE Loss: 0.39
+Epoch 8: Train Loss: 0.3869, Val MRSE Loss: 0.4042, Val MAPE Loss: 0.5495, Val WroPerc: 0.5669
+Batch 40, MRSE Loss: 0.41
+Batch 80, MRSE Loss: 0.42
+Batch 120, MRSE Loss: 0.35
+Batch 160, MRSE Loss: 0.43
+Batch 200, MRSE Loss: 0.37
+Batch 240, MRSE Loss: 0.35
+Batch 280, MRSE Loss: 0.40
+Batch 320, MRSE Loss: 0.38
+Epoch 9: Train Loss: 0.3872, Val MRSE Loss: 0.3996, Val MAPE Loss: 0.5476, Val WroPerc: 0.5669
+Batch 40, MRSE Loss: 0.37
+Batch 80, MRSE Loss: 0.37
+Batch 120, MRSE Loss: 0.38
+Batch 160, MRSE Loss: 0.43
+Batch 200, MRSE Loss: 0.40
+Batch 240, MRSE Loss: 0.37
+Batch 280, MRSE Loss: 0.43
+Batch 320, MRSE Loss: 0.35
+Epoch 10: Train Loss: 0.3883, Val MRSE Loss: 0.4195, Val MAPE Loss: 0.5601, Val WroPerc: 0.5775
+Batch 40, MRSE Loss: 0.38
+Batch 80, MRSE Loss: 0.40
+Batch 120, MRSE Loss: 0.38
+Batch 160, MRSE Loss: 0.37
+Batch 200, MRSE Loss: 0.38
+Batch 240, MRSE Loss: 0.42
+Batch 280, MRSE Loss: 0.39
+Batch 320, MRSE Loss: 0.38
+Epoch 11: Train Loss: 0.3865, Val MRSE Loss: 0.4028, Val MAPE Loss: 0.5487, Val WroPerc: 0.5669
+Batch 40, MRSE Loss: 0.40
+Batch 80, MRSE Loss: 0.38
+Batch 120, MRSE Loss: 0.36
+Batch 160, MRSE Loss: 0.38
+Batch 200, MRSE Loss: 0.40
+Batch 240, MRSE Loss: 0.39
+Batch 280, MRSE Loss: 0.39
+Batch 320, MRSE Loss: 0.41
+Epoch 12: Train Loss: 0.3896, Val MRSE Loss: 0.4120, Val MAPE Loss: 0.5574, Val WroPerc: 0.5775
+Batch 40, MRSE Loss: 0.39
+Batch 80, MRSE Loss: 0.39
+Batch 120, MRSE Loss: 0.43
+Batch 160, MRSE Loss: 0.37
+Batch 200, MRSE Loss: 0.40
+Batch 240, MRSE Loss: 0.37
+Batch 280, MRSE Loss: 0.37
+Batch 320, MRSE Loss: 0.38
+Epoch 13: Train Loss: 0.3861, Val MRSE Loss: 0.4170, Val MAPE Loss: 0.559, Val WroPerc: 0.5775
+Batch 40, MRSE Loss: 0.41
+Batch 80, MRSE Loss: 0.40
+Batch 120, MRSE Loss: 0.41
+Batch 160, MRSE Loss: 0.37
+Batch 200, MRSE Loss: 0.35
+Batch 240, MRSE Loss: 0.40
+Batch 280, MRSE Loss: 0.39
+Batch 320, MRSE Loss: 0.37
+Epoch 14: Train Loss: 0.3880, Val MRSE Loss: 0.4179, Val MAPE Loss: 0.559, Val WroPerc: 0.5775
+Batch 40, MRSE Loss: 0.37
+Batch 80, MRSE Loss: 0.40
+Batch 120, MRSE Loss: 0.37
+Batch 160, MRSE Loss: 0.39
+Batch 200, MRSE Loss: 0.40
+Batch 240, MRSE Loss: 0.34
+Batch 280, MRSE Loss: 0.39
+Batch 320, MRSE Loss: 0.42
+Epoch 15: Train Loss: 0.3873, Val MRSE Loss: 0.4124, Val MAPE Loss: 0.5566, Val WroPerc: 0.5775
+Batch 40, MRSE Loss: 0.40
+Batch 80, MRSE Loss: 0.34
+Batch 120, MRSE Loss: 0.38
+Batch 160, MRSE Loss: 0.40
+Batch 200, MRSE Loss: 0.33
+Batch 240, MRSE Loss: 0.41
+Batch 280, MRSE Loss: 0.41
+Batch 320, MRSE Loss: 0.43
+Epoch 16: Train Loss: 0.3888, Val MRSE Loss: 0.4107, Val MAPE Loss: 0.5561, Val WroPerc: 0.5775
+Batch 40, MRSE Loss: 0.41
+Batch 80, MRSE Loss: 0.42
+Batch 120, MRSE Loss: 0.44
+Batch 160, MRSE Loss: 0.39
+Batch 200, MRSE Loss: 0.35
+Batch 240, MRSE Loss: 0.36
+Batch 280, MRSE Loss: 0.36
+Batch 320, MRSE Loss: 0.37
+Epoch 17: Train Loss: 0.3893, Val MRSE Loss: 0.4019, Val MAPE Loss: 0.5506, Val WroPerc: 0.5669
+Batch 40, MRSE Loss: 0.39
+Batch 80, MRSE Loss: 0.38
+Batch 120, MRSE Loss: 0.37
+Batch 160, MRSE Loss: 0.36
+Batch 200, MRSE Loss: 0.40
+Batch 240, MRSE Loss: 0.38
+Batch 280, MRSE Loss: 0.38
+Batch 320, MRSE Loss: 0.43
+Epoch 18: Train Loss: 0.3868, Val MRSE Loss: 0.4008, Val MAPE Loss: 0.5481, Val WroPerc: 0.5669
+Batch 40, MRSE Loss: 0.41
+Batch 80, MRSE Loss: 0.36
+Batch 120, MRSE Loss: 0.40
+Batch 160, MRSE Loss: 0.39
+Batch 200, MRSE Loss: 0.36
+Batch 240, MRSE Loss: 0.37
+Batch 280, MRSE Loss: 0.40
+Batch 320, MRSE Loss: 0.43
+Epoch 19: Train Loss: 0.3878, Val MRSE Loss: 0.4072, Val MAPE Loss: 0.5549, Val WroPerc: 0.5775
+Batch 40, MRSE Loss: 0.44
+Batch 80, MRSE Loss: 0.36
+Batch 120, MRSE Loss: 0.40
+Batch 160, MRSE Loss: 0.40
+Batch 200, MRSE Loss: 0.38
+Batch 240, MRSE Loss: 0.40
+Batch 280, MRSE Loss: 0.39
+Batch 320, MRSE Loss: 0.34
+Epoch 20: Train Loss: 0.3894, Val MRSE Loss: 0.4074, Val MAPE Loss: 0.5501, Val WroPerc: 0.5669
+Batch 40, MRSE Loss: 0.37
+Batch 80, MRSE Loss: 0.42
+Batch 120, MRSE Loss: 0.39
+Batch 160, MRSE Loss: 0.39
+Batch 200, MRSE Loss: 0.35
+Batch 240, MRSE Loss: 0.40
+Batch 280, MRSE Loss: 0.40
+Batch 320, MRSE Loss: 0.39
+Epoch 21: Train Loss: 0.3873, Val MRSE Loss: 0.4073, Val MAPE Loss: 0.5541, Val WroPerc: 0.5775
+Batch 40, MRSE Loss: 0.41
+Batch 80, MRSE Loss: 0.37
+Batch 120, MRSE Loss: 0.38
+Batch 160, MRSE Loss: 0.40
+Batch 200, MRSE Loss: 0.40
+Batch 240, MRSE Loss: 0.34
+Batch 280, MRSE Loss: 0.38
+Batch 320, MRSE Loss: 0.39
+Epoch 22: Train Loss: 0.3879, Val MRSE Loss: 0.4107, Val MAPE Loss: 0.5567, Val WroPerc: 0.5775
+Batch 40, MRSE Loss: 0.38
+Batch 80, MRSE Loss: 0.38
+Batch 120, MRSE Loss: 0.35
+Batch 160, MRSE Loss: 0.43
+Batch 200, MRSE Loss: 0.39
+Batch 240, MRSE Loss: 0.35
+Batch 280, MRSE Loss: 0.40
+Batch 320, MRSE Loss: 0.42
+Epoch 23: Train Loss: 0.3868, Val MRSE Loss: 0.4021, Val MAPE Loss: 0.5523, Val WroPerc: 0.5282
+Batch 40, MRSE Loss: 0.34
+Batch 80, MRSE Loss: 0.40
+Batch 120, MRSE Loss: 0.41
+Batch 160, MRSE Loss: 0.39
+Batch 200, MRSE Loss: 0.39
+Batch 240, MRSE Loss: 0.37
+Batch 280, MRSE Loss: 0.38
+Batch 320, MRSE Loss: 0.41
+Epoch 24: Train Loss: 0.3870, Val MRSE Loss: 0.3929, Val MAPE Loss: 0.5463, Val WroPerc: 0.5282
+Batch 40, MRSE Loss: 0.41
+Batch 80, MRSE Loss: 0.41
+Batch 120, MRSE Loss: 0.37
+Batch 160, MRSE Loss: 0.42
+Batch 200, MRSE Loss: 0.39
+Batch 240, MRSE Loss: 0.38
+Batch 280, MRSE Loss: 0.36
+Batch 320, MRSE Loss: 0.39
+Epoch 25: Train Loss: 0.3886, Val MRSE Loss: 0.4078, Val MAPE Loss: 0.5523, Val WroPerc: 0.5669
+Batch 40, MRSE Loss: 0.34
+Batch 80, MRSE Loss: 0.44
+Batch 120, MRSE Loss: 0.40
+Batch 160, MRSE Loss: 0.38
+Batch 200, MRSE Loss: 0.35
+Batch 240, MRSE Loss: 0.41
+Batch 280, MRSE Loss: 0.43
+Batch 320, MRSE Loss: 0.37
+Epoch 26: Train Loss: 0.3883, Val MRSE Loss: 0.4100, Val MAPE Loss: 0.5557, Val WroPerc: 0.5775
+Batch 40, MRSE Loss: 0.38
+Batch 80, MRSE Loss: 0.37
+Batch 120, MRSE Loss: 0.39
+Batch 160, MRSE Loss: 0.40
+Batch 200, MRSE Loss: 0.39
+Batch 240, MRSE Loss: 0.40
+Batch 280, MRSE Loss: 0.39
+Batch 320, MRSE Loss: 0.37
+Epoch 27: Train Loss: 0.3889, Val MRSE Loss: 0.4175, Val MAPE Loss: 0.5557, Val WroPerc: 0.5669
+Batch 40, MRSE Loss: 0.39
+Batch 80, MRSE Loss: 0.40
+Batch 120, MRSE Loss: 0.37
+Batch 160, MRSE Loss: 0.37
+Batch 200, MRSE Loss: 0.37
+Batch 240, MRSE Loss: 0.42
+Batch 320, MRSE Loss: 0.38
+Epoch 28: Train Loss: 0.3885, Val MRSE Loss: 0.4076, Val MAPE Loss: 0.5529, Val WroPerc: 0.5669
+Batch 40, MRSE Loss: 0.36
+Batch 80, MRSE Loss: 0.37
+Batch 120, MRSE Loss: 0.42
+Batch 160, MRSE Loss: 0.40
+Batch 200, MRSE Loss: 0.39
+Batch 240, MRSE Loss: 0.42
+Batch 280, MRSE Loss: 0.37
+Batch 320, MRSE Loss: 0.38
+Epoch 29: Train Loss: 0.3878, Val MRSE Loss: 0.4044, Val MAPE Loss: 0.5536, Val WroPerc: 0.5282
+Batch 40, MRSE Loss: 0.35
+Batch 80, MRSE Loss: 0.39
+Batch 120, MRSE Loss: 0.39
+Batch 160, MRSE Loss: 0.40
+Batch 200, MRSE Loss: 0.40
+Batch 240, MRSE Loss: 0.38
+Batch 280, MRSE Loss: 0.39
+Batch 320, MRSE Loss: 0.43
+Epoch 30: Train Loss: 0.3906, Val MRSE Loss: 0.4350, Val MAPE Loss: 0.5634, Val WroPerc: 0.5915
+Batch 40, MRSE Loss: 0.43
+Batch 80, MRSE Loss: 0.39
+Batch 120, MRSE Loss: 0.39
+Batch 160, MRSE Loss: 0.33
+Batch 200, MRSE Loss: 0.40
+Batch 240, MRSE Loss: 0.40
+Batch 280, MRSE Loss: 0.39
+Batch 320, MRSE Loss: 0.38
+Epoch 31: Train Loss: 0.3889, Val MRSE Loss: 0.3978, Val MAPE Loss: 0.5491, Val WroPerc: 0.5282
+Batch 40, MRSE Loss: 0.37
+Batch 80, MRSE Loss: 0.40
+Batch 120, MRSE Loss: 0.43
+Batch 160, MRSE Loss: 0.37
+Batch 200, MRSE Loss: 0.39
+Batch 240, MRSE Loss: 0.36
+Batch 280, MRSE Loss: 0.40
+Batch 320, MRSE Loss: 0.37
+Epoch 32: Train Loss: 0.3863, Val MRSE Loss: 0.4161, Val MAPE Loss: 0.5556, Val WroPerc: 0.5775
+Batch 40, MRSE Loss: 0.34
+Batch 80, MRSE Loss: 0.34
+Batch 120, MRSE Loss: 0.21
+Batch 160, MRSE Loss: 0.27
+Batch 200, MRSE Loss: 0.28
+Batch 240, MRSE Loss: 0.26
+Batch 280, MRSE Loss: 0.25
+Batch 320, MRSE Loss: 0.22
+Epoch 33: Train Loss: 0.2706, Val MRSE Loss: 0.3142, Val MAPE Loss: 0.5086, Val WroPerc: 0.5106
+Batch 40, MRSE Loss: 0.21
+Batch 80, MRSE Loss: 0.20
+Batch 120, MRSE Loss: 0.23
+Batch 160, MRSE Loss: 0.20
+Batch 200, MRSE Loss: 0.18
+Batch 240, MRSE Loss: 0.23
+Batch 280, MRSE Loss: 0.20
+Batch 320, MRSE Loss: 0.20
+Epoch 34: Train Loss: 0.2068, Val MRSE Loss: 0.1791, Val MAPE Loss: 0.3417, Val WroPerc: 0.2394
+Batch 40, MRSE Loss: 0.15
+Batch 80, MRSE Loss: 0.20
+Batch 120, MRSE Loss: 0.21
+Batch 160, MRSE Loss: 0.17
+Batch 200, MRSE Loss: 0.22
+Batch 240, MRSE Loss: 0.20
+Batch 280, MRSE Loss: 0.21
+Batch 320, MRSE Loss: 0.17
+Epoch 35: Train Loss: 0.1889, Val MRSE Loss: 0.1635, Val MAPE Loss: 0.3281, Val WroPerc: 0.2289
+Batch 40, MRSE Loss: 0.18
+Batch 80, MRSE Loss: 0.20
+Batch 120, MRSE Loss: 0.20
+Batch 160, MRSE Loss: 0.20
+Batch 200, MRSE Loss: 0.18
+Batch 240, MRSE Loss: 0.15
+Batch 280, MRSE Loss: 0.19
+Batch 320, MRSE Loss: 0.17
+Epoch 36: Train Loss: 0.1830, Val MRSE Loss: 0.1865, Val MAPE Loss: 0.3598, Val WroPerc: 0.25
+Batch 40, MRSE Loss: 0.17
+Batch 80, MRSE Loss: 0.19
+Batch 120, MRSE Loss: 0.20
+Batch 160, MRSE Loss: 0.17
+Batch 200, MRSE Loss: 0.16
+Batch 240, MRSE Loss: 0.20
+Batch 280, MRSE Loss: 0.25
+Batch 320, MRSE Loss: 0.18
+Epoch 37: Train Loss: 0.1874, Val MRSE Loss: 0.1602, Val MAPE Loss: 0.319, Val WroPerc: 0.2254
+Batch 40, MRSE Loss: 0.19
+Batch 80, MRSE Loss: 0.15
+Batch 120, MRSE Loss: 0.16
+Batch 160, MRSE Loss: 0.17
+Batch 200, MRSE Loss: 0.16
+Batch 240, MRSE Loss: 0.18
+Batch 280, MRSE Loss: 0.18
+Batch 320, MRSE Loss: 0.19
+Epoch 38: Train Loss: 0.1726, Val MRSE Loss: 0.1674, Val MAPE Loss: 0.3268, Val WroPerc: 0.2289
+Batch 40, MRSE Loss: 0.19
+Batch 80, MRSE Loss: 0.18
+Batch 120, MRSE Loss: 0.18
+Batch 160, MRSE Loss: 0.16
+Batch 200, MRSE Loss: 0.19
+Batch 240, MRSE Loss: 0.15
+Batch 280, MRSE Loss: 0.19
+Batch 320, MRSE Loss: 0.14
+Epoch 39: Train Loss: 0.1706, Val MRSE Loss: 0.1523, Val MAPE Loss: 0.3086, Val WroPerc: 0.2148
+Batch 40, MRSE Loss: 0.16
+Batch 80, MRSE Loss: 0.19
+Batch 120, MRSE Loss: 0.19
+Batch 160, MRSE Loss: 0.15
+Batch 200, MRSE Loss: 0.17
+Batch 240, MRSE Loss: 0.18
+Batch 280, MRSE Loss: 0.17
+Batch 320, MRSE Loss: 0.16
+Epoch 40: Train Loss: 0.1694, Val MRSE Loss: 0.1798, Val MAPE Loss: 0.3489, Val WroPerc: 0.243
+Batch 40, MRSE Loss: 0.17
+Batch 80, MRSE Loss: 0.17
+Batch 120, MRSE Loss: 0.16
+Batch 160, MRSE Loss: 0.16
+Batch 200, MRSE Loss: 0.16
+Batch 240, MRSE Loss: 0.16
+Batch 280, MRSE Loss: 0.17
+Batch 320, MRSE Loss: 0.15
+Epoch 41: Train Loss: 0.1649, Val MRSE Loss: 0.1624, Val MAPE Loss: 0.3221, Val WroPerc: 0.2359
+Batch 40, MRSE Loss: 0.21
+Batch 80, MRSE Loss: 0.18
+Batch 120, MRSE Loss: 0.14
+Batch 160, MRSE Loss: 0.14
+Batch 200, MRSE Loss: 0.22
+Batch 240, MRSE Loss: 0.18
+Batch 280, MRSE Loss: 0.16
+Batch 320, MRSE Loss: 0.13
+Epoch 42: Train Loss: 0.1736, Val MRSE Loss: 0.1677, Val MAPE Loss: 0.3251, Val WroPerc: 0.2324
+Batch 40, MRSE Loss: 0.14
+Batch 80, MRSE Loss: 0.18
+Batch 120, MRSE Loss: 0.18
+Batch 160, MRSE Loss: 0.18
+Batch 200, MRSE Loss: 0.20
+Batch 240, MRSE Loss: 0.16
+Batch 280, MRSE Loss: 0.18
+Batch 320, MRSE Loss: 0.14
+Epoch 43: Train Loss: 0.1713, Val MRSE Loss: 0.1624, Val MAPE Loss: 0.3214, Val WroPerc: 0.2183
+Batch 40, MRSE Loss: 0.16
+Batch 80, MRSE Loss: 0.16
+Batch 120, MRSE Loss: 0.17
+Batch 160, MRSE Loss: 0.16
+Batch 200, MRSE Loss: 0.15
+Batch 240, MRSE Loss: 0.17
+Batch 280, MRSE Loss: 0.12
+Batch 320, MRSE Loss: 0.17
+Epoch 44: Train Loss: 0.1580, Val MRSE Loss: 0.1528, Val MAPE Loss: 0.3121, Val WroPerc: 0.2077
+Batch 40, MRSE Loss: 0.16
+Batch 80, MRSE Loss: 0.14
+Batch 120, MRSE Loss: 0.15
+Batch 160, MRSE Loss: 0.18
+Batch 200, MRSE Loss: 0.19
+Batch 240, MRSE Loss: 0.15
+Batch 280, MRSE Loss: 0.16
+Batch 320, MRSE Loss: 0.18
+Epoch 45: Train Loss: 0.1632, Val MRSE Loss: 0.1459, Val MAPE Loss: 0.3021, Val WroPerc: 0.2077
+Batch 40, MRSE Loss: 0.16
+Batch 80, MRSE Loss: 0.17
+Batch 120, MRSE Loss: 0.13
+Batch 160, MRSE Loss: 0.16
+Batch 200, MRSE Loss: 0.16
+Batch 240, MRSE Loss: 0.16
+Batch 280, MRSE Loss: 0.18
+Batch 320, MRSE Loss: 0.19
+Epoch 46: Train Loss: 0.1635, Val MRSE Loss: 0.1806, Val MAPE Loss: 0.3485, Val WroPerc: 0.2535
+Batch 40, MRSE Loss: 0.20
+Batch 80, MRSE Loss: 0.12
+Batch 120, MRSE Loss: 0.14
+Batch 160, MRSE Loss: 0.15
+Batch 200, MRSE Loss: 0.17
+Batch 240, MRSE Loss: 0.15
+Batch 280, MRSE Loss: 0.16
+Batch 320, MRSE Loss: 0.15
+Epoch 47: Train Loss: 0.1561, Val MRSE Loss: 0.1859, Val MAPE Loss: 0.3423, Val WroPerc: 0.243
+Batch 40, MRSE Loss: 0.13
+Batch 80, MRSE Loss: 0.14
+Batch 120, MRSE Loss: 0.18
+Batch 160, MRSE Loss: 0.19
+Batch 200, MRSE Loss: 0.18
+Batch 240, MRSE Loss: 0.12
+Batch 280, MRSE Loss: 0.15
+Batch 320, MRSE Loss: 0.15
+Epoch 48: Train Loss: 0.1550, Val MRSE Loss: 0.1515, Val MAPE Loss: 0.3032, Val WroPerc: 0.2183
+Batch 40, MRSE Loss: 0.15
+Batch 80, MRSE Loss: 0.17
+Batch 120, MRSE Loss: 0.19
+Batch 160, MRSE Loss: 0.12
+Batch 200, MRSE Loss: 0.15
+Batch 240, MRSE Loss: 0.21
+Batch 280, MRSE Loss: 0.14
+Batch 320, MRSE Loss: 0.17
+Epoch 49: Train Loss: 0.1638, Val MRSE Loss: 0.1461, Val MAPE Loss: 0.3011, Val WroPerc: 0.2077
+Batch 40, MRSE Loss: 0.13
+Batch 80, MRSE Loss: 0.17
+Batch 120, MRSE Loss: 0.13
+Batch 160, MRSE Loss: 0.19
+Batch 200, MRSE Loss: 0.16
+Batch 240, MRSE Loss: 0.18
+Batch 280, MRSE Loss: 0.15
+Batch 320, MRSE Loss: 0.16
+Epoch 50: Train Loss: 0.1573, Val MRSE Loss: 0.1406, Val MAPE Loss: 0.2928, Val WroPerc: 0.1937
+Batch 40, MRSE Loss: 0.13
+Batch 80, MRSE Loss: 0.16
+Batch 120, MRSE Loss: 0.14
+Batch 160, MRSE Loss: 0.19
+Batch 200, MRSE Loss: 0.12
+Batch 240, MRSE Loss: 0.16
+Batch 280, MRSE Loss: 0.16
+Batch 320, MRSE Loss: 0.22
+Epoch 51: Train Loss: 0.1585, Val MRSE Loss: 0.1960, Val MAPE Loss: 0.3742, Val WroPerc: 0.2711
+Batch 40, MRSE Loss: 0.16
+Batch 80, MRSE Loss: 0.16
+Batch 120, MRSE Loss: 0.16
+Batch 160, MRSE Loss: 0.18
+Batch 200, MRSE Loss: 0.15
+Batch 240, MRSE Loss: 0.17
+Batch 280, MRSE Loss: 0.17
+Batch 320, MRSE Loss: 0.14
+Epoch 52: Train Loss: 0.1627, Val MRSE Loss: 0.1696, Val MAPE Loss: 0.3309, Val WroPerc: 0.25
+Batch 40, MRSE Loss: 0.15
+Batch 80, MRSE Loss: 0.19
+Batch 120, MRSE Loss: 0.14
+Batch 160, MRSE Loss: 0.18
+Batch 200, MRSE Loss: 0.14
+Batch 240, MRSE Loss: 0.15
+Batch 280, MRSE Loss: 0.19
+Batch 320, MRSE Loss: 0.13
+Epoch 53: Train Loss: 0.1573, Val MRSE Loss: 0.1563, Val MAPE Loss: 0.3135, Val WroPerc: 0.2183
+Batch 40, MRSE Loss: 0.17
+Batch 80, MRSE Loss: 0.15
+Batch 120, MRSE Loss: 0.19
+Batch 160, MRSE Loss: 0.16
+Batch 200, MRSE Loss: 0.16
+Batch 240, MRSE Loss: 0.14
+Batch 280, MRSE Loss: 0.13
+Batch 320, MRSE Loss: 0.15
+Epoch 54: Train Loss: 0.1617, Val MRSE Loss: 0.1567, Val MAPE Loss: 0.3143, Val WroPerc: 0.2218
+Batch 40, MRSE Loss: 0.17
+Batch 80, MRSE Loss: 0.16
+Batch 120, MRSE Loss: 0.17
+Batch 160, MRSE Loss: 0.16
+Batch 200, MRSE Loss: 0.17
+Batch 240, MRSE Loss: 0.16
+Batch 280, MRSE Loss: 0.15
+Batch 320, MRSE Loss: 0.14
+Epoch 55: Train Loss: 0.1608, Val MRSE Loss: 0.1588, Val MAPE Loss: 0.3171, Val WroPerc: 0.2218
+Batch 40, MRSE Loss: 0.17
+Batch 80, MRSE Loss: 0.15
+Batch 120, MRSE Loss: 0.17
+Batch 160, MRSE Loss: 0.13
+Batch 200, MRSE Loss: 0.18
+Batch 240, MRSE Loss: 0.18
+Batch 280, MRSE Loss: 0.12
+Batch 320, MRSE Loss: 0.14
+Epoch 56: Train Loss: 0.1558, Val MRSE Loss: 0.1413, Val MAPE Loss: 0.2927, Val WroPerc: 0.2042
+Batch 40, MRSE Loss: 0.19
+Batch 80, MRSE Loss: 0.15
+Batch 120, MRSE Loss: 0.15
+Batch 160, MRSE Loss: 0.18
+Batch 200, MRSE Loss: 0.14
+Batch 240, MRSE Loss: 0.18
+Batch 280, MRSE Loss: 0.18
+Batch 320, MRSE Loss: 0.17
+Epoch 57: Train Loss: 0.1661, Val MRSE Loss: 0.1403, Val MAPE Loss: 0.2884, Val WroPerc: 0.1972
+Batch 40, MRSE Loss: 0.16
+Batch 80, MRSE Loss: 0.12
+Batch 120, MRSE Loss: 0.16
+Batch 160, MRSE Loss: 0.16
+Batch 200, MRSE Loss: 0.17
+Batch 240, MRSE Loss: 0.15
+Batch 280, MRSE Loss: 0.17
+Batch 320, MRSE Loss: 0.14
+Epoch 58: Train Loss: 0.1548, Val MRSE Loss: 0.2046, Val MAPE Loss: 0.3902, Val WroPerc: 0.2676
+Batch 40, MRSE Loss: 0.17
+Batch 80, MRSE Loss: 0.15
+Batch 120, MRSE Loss: 0.17
+Batch 160, MRSE Loss: 0.13
+Batch 200, MRSE Loss: 0.15
+Batch 240, MRSE Loss: 0.13
+Batch 280, MRSE Loss: 0.19
+Batch 320, MRSE Loss: 0.15
+Epoch 59: Train Loss: 0.1563, Val MRSE Loss: 0.1969, Val MAPE Loss: 0.3739, Val WroPerc: 0.2923
+Batch 40, MRSE Loss: 0.14
+Batch 80, MRSE Loss: 0.14
+Batch 120, MRSE Loss: 0.14
+Batch 160, MRSE Loss: 0.17
+Batch 200, MRSE Loss: 0.20
+Batch 240, MRSE Loss: 0.17
+Batch 280, MRSE Loss: 0.15
+Batch 320, MRSE Loss: 0.14
+Epoch 60: Train Loss: 0.1571, Val MRSE Loss: 0.1435, Val MAPE Loss: 0.2913, Val WroPerc: 0.1972
+Batch 40, MRSE Loss: 0.17
+Batch 80, MRSE Loss: 0.14
+Batch 120, MRSE Loss: 0.17
+Batch 160, MRSE Loss: 0.16
+Batch 200, MRSE Loss: 0.17
+Batch 240, MRSE Loss: 0.16
+Batch 280, MRSE Loss: 0.16
+Batch 320, MRSE Loss: 0.13
+Epoch 61: Train Loss: 0.1556, Val MRSE Loss: 0.1346, Val MAPE Loss: 0.2787, Val WroPerc: 0.1761
+Batch 40, MRSE Loss: 0.16
+Batch 80, MRSE Loss: 0.15
+Batch 120, MRSE Loss: 0.16
+Batch 160, MRSE Loss: 0.15
+Batch 200, MRSE Loss: 0.17
+Batch 240, MRSE Loss: 0.14
+Batch 280, MRSE Loss: 0.15
+Batch 320, MRSE Loss: 0.15
+Epoch 62: Train Loss: 0.1518, Val MRSE Loss: 0.1402, Val MAPE Loss: 0.2897, Val WroPerc: 0.2007
+Batch 40, MRSE Loss: 0.19
+Batch 80, MRSE Loss: 0.17
+Batch 120, MRSE Loss: 0.12
+Batch 160, MRSE Loss: 0.19
+Batch 200, MRSE Loss: 0.18
+Batch 240, MRSE Loss: 0.17
+Batch 280, MRSE Loss: 0.14
+Batch 320, MRSE Loss: 0.16
+Epoch 63: Train Loss: 0.1633, Val MRSE Loss: 0.1417, Val MAPE Loss: 0.2903, Val WroPerc: 0.1796
+Batch 40, MRSE Loss: 0.17
+Batch 80, MRSE Loss: 0.16
+Batch 120, MRSE Loss: 0.17
+Batch 160, MRSE Loss: 0.15
+Batch 200, MRSE Loss: 0.19
+Batch 240, MRSE Loss: 0.14
+Batch 280, MRSE Loss: 0.14
+Batch 320, MRSE Loss: 0.12
+Epoch 64: Train Loss: 0.1547, Val MRSE Loss: 0.1458, Val MAPE Loss: 0.2902, Val WroPerc: 0.2113
+Batch 40, MRSE Loss: 0.11
+Batch 80, MRSE Loss: 0.14
+Batch 120, MRSE Loss: 0.20
+Batch 160, MRSE Loss: 0.14
+Batch 200, MRSE Loss: 0.20
+Batch 240, MRSE Loss: 0.18
+Batch 280, MRSE Loss: 0.15
+Batch 320, MRSE Loss: 0.16
+Epoch 65: Train Loss: 0.1624, Val MRSE Loss: 0.1629, Val MAPE Loss: 0.3241, Val WroPerc: 0.2394
+Batch 40, MRSE Loss: 0.12
+Batch 80, MRSE Loss: 0.16
+Batch 120, MRSE Loss: 0.20
+Batch 160, MRSE Loss: 0.13
+Batch 200, MRSE Loss: 0.15
+Batch 240, MRSE Loss: 0.16
+Batch 280, MRSE Loss: 0.18
+Batch 320, MRSE Loss: 0.18
+Epoch 66: Train Loss: 0.1587, Val MRSE Loss: 0.1559, Val MAPE Loss: 0.3167, Val WroPerc: 0.2148
+Batch 40, MRSE Loss: 0.15
+Batch 80, MRSE Loss: 0.19
+Batch 120, MRSE Loss: 0.16
+Batch 160, MRSE Loss: 0.15
+Batch 200, MRSE Loss: 0.16
+Batch 240, MRSE Loss: 0.15
+Batch 280, MRSE Loss: 0.16
+Batch 320, MRSE Loss: 0.13
+Epoch 67: Train Loss: 0.1556, Val MRSE Loss: 0.1373, Val MAPE Loss: 0.2857, Val WroPerc: 0.1866
+Batch 40, MRSE Loss: 0.14
+Batch 80, MRSE Loss: 0.15
+Batch 120, MRSE Loss: 0.15
+Batch 160, MRSE Loss: 0.15
+Batch 200, MRSE Loss: 0.16
+Batch 240, MRSE Loss: 0.17
+Batch 280, MRSE Loss: 0.16
+Batch 320, MRSE Loss: 0.14
+Epoch 68: Train Loss: 0.1525, Val MRSE Loss: 0.1649, Val MAPE Loss: 0.3248, Val WroPerc: 0.243
+Batch 40, MRSE Loss: 0.15
+Batch 80, MRSE Loss: 0.15
+Batch 120, MRSE Loss: 0.15
+Batch 160, MRSE Loss: 0.14
+Batch 200, MRSE Loss: 0.15
+Batch 240, MRSE Loss: 0.14
+Batch 280, MRSE Loss: 0.17
+Batch 320, MRSE Loss: 0.15
+Epoch 69: Train Loss: 0.1500, Val MRSE Loss: 0.1670, Val MAPE Loss: 0.3284, Val WroPerc: 0.243
+Batch 40, MRSE Loss: 0.18
+Batch 80, MRSE Loss: 0.16
+Batch 120, MRSE Loss: 0.14
+Batch 160, MRSE Loss: 0.16
+Batch 200, MRSE Loss: 0.14
+Batch 240, MRSE Loss: 0.15
+Batch 280, MRSE Loss: 0.16
+Batch 320, MRSE Loss: 0.14
+Epoch 70: Train Loss: 0.1535, Val MRSE Loss: 0.1398, Val MAPE Loss: 0.2763, Val WroPerc: 0.2007
+Batch 40, MRSE Loss: 0.13
+Batch 80, MRSE Loss: 0.13
+Batch 120, MRSE Loss: 0.15
+Batch 160, MRSE Loss: 0.16
+Batch 200, MRSE Loss: 0.15
+Batch 240, MRSE Loss: 0.15
+Batch 280, MRSE Loss: 0.16
+Batch 320, MRSE Loss: 0.13
+Epoch 71: Train Loss: 0.1435, Val MRSE Loss: 0.1372, Val MAPE Loss: 0.2697, Val WroPerc: 0.2077
+Batch 40, MRSE Loss: 0.14
+Batch 80, MRSE Loss: 0.15
+Batch 120, MRSE Loss: 0.18
+Batch 160, MRSE Loss: 0.14
+Batch 200, MRSE Loss: 0.13
+Batch 240, MRSE Loss: 0.11
+Batch 280, MRSE Loss: 0.13
+Batch 320, MRSE Loss: 0.16
+Epoch 72: Train Loss: 0.1417, Val MRSE Loss: 0.1915, Val MAPE Loss: 0.366, Val WroPerc: 0.2852
+Batch 40, MRSE Loss: 0.16
+Batch 80, MRSE Loss: 0.23
+Batch 120, MRSE Loss: 0.12
+Batch 160, MRSE Loss: 0.14
+Batch 200, MRSE Loss: 0.17
+Batch 240, MRSE Loss: 0.14
+Batch 280, MRSE Loss: 0.16
+Batch 320, MRSE Loss: 0.13
+Epoch 73: Train Loss: 0.1560, Val MRSE Loss: 0.1355, Val MAPE Loss: 0.2734, Val WroPerc: 0.1901
+Batch 40, MRSE Loss: 0.15
+Batch 80, MRSE Loss: 0.14
+Batch 120, MRSE Loss: 0.16
+Batch 160, MRSE Loss: 0.13
+Batch 200, MRSE Loss: 0.15
+Batch 240, MRSE Loss: 0.14
+Batch 280, MRSE Loss: 0.12
+Batch 320, MRSE Loss: 0.14
+Epoch 74: Train Loss: 0.1436, Val MRSE Loss: 0.1450, Val MAPE Loss: 0.298, Val WroPerc: 0.2007
+Batch 40, MRSE Loss: 0.15
+Batch 80, MRSE Loss: 0.14
+Batch 120, MRSE Loss: 0.12
+Batch 160, MRSE Loss: 0.17
+Batch 200, MRSE Loss: 0.11
+Batch 240, MRSE Loss: 0.16
+Batch 280, MRSE Loss: 0.13
+Batch 320, MRSE Loss: 0.17
+Epoch 75: Train Loss: 0.1451, Val MRSE Loss: 0.1302, Val MAPE Loss: 0.2714, Val WroPerc: 0.1761
+Batch 40, MRSE Loss: 0.11
+Batch 80, MRSE Loss: 0.15
+Batch 120, MRSE Loss: 0.13
+Batch 160, MRSE Loss: 0.13
+Batch 200, MRSE Loss: 0.17
+Batch 240, MRSE Loss: 0.15
+Batch 280, MRSE Loss: 0.14
+Batch 320, MRSE Loss: 0.15
+Epoch 76: Train Loss: 0.1422, Val MRSE Loss: 0.1728, Val MAPE Loss: 0.3325, Val WroPerc: 0.2535
+Batch 40, MRSE Loss: 0.15
+Batch 80, MRSE Loss: 0.16
+Batch 120, MRSE Loss: 0.12
+Batch 160, MRSE Loss: 0.14
+Batch 200, MRSE Loss: 0.12
+Batch 240, MRSE Loss: 0.13
+Batch 280, MRSE Loss: 0.14
+Batch 320, MRSE Loss: 0.15
+Epoch 77: Train Loss: 0.1396, Val MRSE Loss: 0.1604, Val MAPE Loss: 0.3099, Val WroPerc: 0.25
+Batch 40, MRSE Loss: 0.14
+Batch 80, MRSE Loss: 0.14
+Batch 120, MRSE Loss: 0.13
+Batch 160, MRSE Loss: 0.17
+Batch 200, MRSE Loss: 0.14
+Batch 240, MRSE Loss: 0.15
+Batch 280, MRSE Loss: 0.17
+Batch 320, MRSE Loss: 0.10
+Epoch 78: Train Loss: 0.1408, Val MRSE Loss: 0.1355, Val MAPE Loss: 0.2847, Val WroPerc: 0.1866
+Batch 40, MRSE Loss: 0.13
+Batch 80, MRSE Loss: 0.14
+Batch 120, MRSE Loss: 0.11
+Batch 160, MRSE Loss: 0.16
+Batch 200, MRSE Loss: 0.17
+Batch 240, MRSE Loss: 0.14
+Batch 280, MRSE Loss: 0.13
+Batch 320, MRSE Loss: 0.14
+Epoch 79: Train Loss: 0.1371, Val MRSE Loss: 0.1362, Val MAPE Loss: 0.2912, Val WroPerc: 0.1725
+Batch 40, MRSE Loss: 0.15
+Batch 80, MRSE Loss: 0.12
+Batch 120, MRSE Loss: 0.14
+Batch 160, MRSE Loss: 0.12
+Batch 200, MRSE Loss: 0.14
+Batch 240, MRSE Loss: 0.14
+Batch 280, MRSE Loss: 0.14
+Batch 320, MRSE Loss: 0.14
+Epoch 80: Train Loss: 0.1356, Val MRSE Loss: 0.1310, Val MAPE Loss: 0.2743, Val WroPerc: 0.1831
+Batch 40, MRSE Loss: 0.11
+Batch 80, MRSE Loss: 0.13
+Batch 120, MRSE Loss: 0.18
+Batch 160, MRSE Loss: 0.13
+Batch 200, MRSE Loss: 0.13
+Batch 240, MRSE Loss: 0.14
+Batch 280, MRSE Loss: 0.14
+Batch 320, MRSE Loss: 0.12
+Epoch 81: Train Loss: 0.1370, Val MRSE Loss: 0.1361, Val MAPE Loss: 0.2837, Val WroPerc: 0.1901
+Batch 40, MRSE Loss: 0.13
+Batch 80, MRSE Loss: 0.15
+Batch 120, MRSE Loss: 0.15
+Batch 160, MRSE Loss: 0.14
+Batch 200, MRSE Loss: 0.14
+Batch 240, MRSE Loss: 0.13
+Batch 280, MRSE Loss: 0.10
+Batch 320, MRSE Loss: 0.15
+Epoch 82: Train Loss: 0.1349, Val MRSE Loss: 0.1312, Val MAPE Loss: 0.2592, Val WroPerc: 0.1866
+Batch 40, MRSE Loss: 0.11
+Batch 80, MRSE Loss: 0.16
+Batch 120, MRSE Loss: 0.14
+Batch 160, MRSE Loss: 0.12
+Batch 200, MRSE Loss: 0.13
+Batch 240, MRSE Loss: 0.12
+Batch 280, MRSE Loss: 0.15
+Batch 320, MRSE Loss: 0.15
+Epoch 83: Train Loss: 0.1355, Val MRSE Loss: 0.1299, Val MAPE Loss: 0.2682, Val WroPerc: 0.1831
+Batch 40, MRSE Loss: 0.15
+Batch 80, MRSE Loss: 0.15
+Batch 120, MRSE Loss: 0.17
+Batch 160, MRSE Loss: 0.11
+Batch 200, MRSE Loss: 0.11
+Batch 240, MRSE Loss: 0.13
+Batch 280, MRSE Loss: 0.14
+Batch 320, MRSE Loss: 0.12
+Epoch 84: Train Loss: 0.1363, Val MRSE Loss: 0.1317, Val MAPE Loss: 0.2548, Val WroPerc: 0.1937
+Batch 40, MRSE Loss: 0.10
+Batch 80, MRSE Loss: 0.13
+Batch 120, MRSE Loss: 0.15
+Batch 160, MRSE Loss: 0.14
+Batch 200, MRSE Loss: 0.12
+Batch 240, MRSE Loss: 0.13
+Batch 280, MRSE Loss: 0.16
+Batch 320, MRSE Loss: 0.16
+Epoch 85: Train Loss: 0.1361, Val MRSE Loss: 0.1513, Val MAPE Loss: 0.2764, Val WroPerc: 0.25
+Batch 40, MRSE Loss: 0.13
+Batch 80, MRSE Loss: 0.14
+Batch 120, MRSE Loss: 0.15
+Batch 160, MRSE Loss: 0.13
+Batch 200, MRSE Loss: 0.15
+Batch 240, MRSE Loss: 0.12
+Batch 280, MRSE Loss: 0.13
+Batch 320, MRSE Loss: 0.13
+Epoch 86: Train Loss: 0.1344, Val MRSE Loss: 0.1295, Val MAPE Loss: 0.2653, Val WroPerc: 0.1866
+Batch 40, MRSE Loss: 0.08
+Batch 80, MRSE Loss: 0.12
+Batch 120, MRSE Loss: 0.15
+Batch 160, MRSE Loss: 0.15
+Batch 200, MRSE Loss: 0.14
+Batch 240, MRSE Loss: 0.13
+Batch 280, MRSE Loss: 0.15
+Batch 320, MRSE Loss: 0.14
+Epoch 87: Train Loss: 0.1343, Val MRSE Loss: 0.1381, Val MAPE Loss: 0.2669, Val WroPerc: 0.1972
+Batch 40, MRSE Loss: 0.10
+Batch 80, MRSE Loss: 0.16
+Batch 120, MRSE Loss: 0.16
+Batch 160, MRSE Loss: 0.13
+Batch 200, MRSE Loss: 0.11
+Batch 240, MRSE Loss: 0.13
+Batch 280, MRSE Loss: 0.12
+Batch 320, MRSE Loss: 0.16
+Epoch 88: Train Loss: 0.1360, Val MRSE Loss: 0.1439, Val MAPE Loss: 0.2527, Val WroPerc: 0.2289
+Batch 40, MRSE Loss: 0.13
+Batch 80, MRSE Loss: 0.11
+Batch 120, MRSE Loss: 0.11
+Batch 160, MRSE Loss: 0.12
+Batch 200, MRSE Loss: 0.16
+Batch 240, MRSE Loss: 0.14
+Batch 280, MRSE Loss: 0.14
+Batch 320, MRSE Loss: 0.17
+Epoch 89: Train Loss: 0.1339, Val MRSE Loss: 0.1380, Val MAPE Loss: 0.2549, Val WroPerc: 0.2148
+Batch 40, MRSE Loss: 0.14
+Batch 80, MRSE Loss: 0.14
+Batch 120, MRSE Loss: 0.14
+Batch 160, MRSE Loss: 0.17
+Batch 200, MRSE Loss: 0.13
+Batch 240, MRSE Loss: 0.12
+Batch 280, MRSE Loss: 0.15
+Batch 320, MRSE Loss: 0.13
+Epoch 90: Train Loss: 0.1381, Val MRSE Loss: 0.1392, Val MAPE Loss: 0.2908, Val WroPerc: 0.1972
+Batch 40, MRSE Loss: 0.17
+Batch 80, MRSE Loss: 0.12
+Batch 120, MRSE Loss: 0.13
+Batch 160, MRSE Loss: 0.13
+Batch 200, MRSE Loss: 0.14
+Batch 240, MRSE Loss: 0.13
+Batch 280, MRSE Loss: 0.13
+Batch 320, MRSE Loss: 0.13
+Epoch 91: Train Loss: 0.1340, Val MRSE Loss: 0.1292, Val MAPE Loss: 0.2637, Val WroPerc: 0.2007
+Batch 40, MRSE Loss: 0.14
+Batch 80, MRSE Loss: 0.14
+Batch 120, MRSE Loss: 0.13
+Batch 160, MRSE Loss: 0.14
+Batch 200, MRSE Loss: 0.16
+Batch 240, MRSE Loss: 0.15
+Batch 280, MRSE Loss: 0.13
+Batch 320, MRSE Loss: 0.11
+Epoch 92: Train Loss: 0.1356, Val MRSE Loss: 0.1294, Val MAPE Loss: 0.2602, Val WroPerc: 0.1901
+Batch 40, MRSE Loss: 0.16
+Batch 80, MRSE Loss: 0.11
+Batch 120, MRSE Loss: 0.10
+Batch 160, MRSE Loss: 0.15
+Batch 200, MRSE Loss: 0.15
+Batch 240, MRSE Loss: 0.13
+Batch 280, MRSE Loss: 0.11
+Batch 320, MRSE Loss: 0.16
+Epoch 93: Train Loss: 0.1352, Val MRSE Loss: 0.1711, Val MAPE Loss: 0.3256, Val WroPerc: 0.2394
+Batch 40, MRSE Loss: 0.15
+Batch 80, MRSE Loss: 0.15
+Batch 120, MRSE Loss: 0.13
+Batch 160, MRSE Loss: 0.13
+Batch 200, MRSE Loss: 0.15
+Batch 240, MRSE Loss: 0.12
+Batch 280, MRSE Loss: 0.13
+Batch 320, MRSE Loss: 0.13
+Epoch 94: Train Loss: 0.1330, Val MRSE Loss: 0.1315, Val MAPE Loss: 0.2593, Val WroPerc: 0.2007
+Batch 40, MRSE Loss: 0.13
+Batch 80, MRSE Loss: 0.11
+Batch 120, MRSE Loss: 0.13
+Batch 160, MRSE Loss: 0.12
+Batch 200, MRSE Loss: 0.20
+Batch 240, MRSE Loss: 0.14
+Batch 280, MRSE Loss: 0.11
+Batch 320, MRSE Loss: 0.13
+Epoch 95: Train Loss: 0.1386, Val MRSE Loss: 0.1403, Val MAPE Loss: 0.2508, Val WroPerc: 0.2254
+Batch 40, MRSE Loss: 0.12
+Batch 80, MRSE Loss: 0.15
+Batch 120, MRSE Loss: 0.11
+Batch 160, MRSE Loss: 0.16
+Batch 200, MRSE Loss: 0.13
+Batch 240, MRSE Loss: 0.15
+Batch 280, MRSE Loss: 0.13
+Batch 320, MRSE Loss: 0.11
+Epoch 96: Train Loss: 0.1325, Val MRSE Loss: 0.1409, Val MAPE Loss: 0.2563, Val WroPerc: 0.2148
+Batch 40, MRSE Loss: 0.12
+Batch 80, MRSE Loss: 0.15
+Batch 120, MRSE Loss: 0.14
+Batch 160, MRSE Loss: 0.12
+Batch 200, MRSE Loss: 0.13
+Batch 240, MRSE Loss: 0.13
+Batch 280, MRSE Loss: 0.11
+Batch 320, MRSE Loss: 0.15
+Epoch 97: Train Loss: 0.1317, Val MRSE Loss: 0.1315, Val MAPE Loss: 0.2467, Val WroPerc: 0.2042
+Batch 40, MRSE Loss: 0.16
+Batch 80, MRSE Loss: 0.13
+Batch 120, MRSE Loss: 0.12
+Batch 160, MRSE Loss: 0.14
+Batch 200, MRSE Loss: 0.15
+Batch 240, MRSE Loss: 0.12
+Batch 280, MRSE Loss: 0.14
+Batch 320, MRSE Loss: 0.12
+Epoch 98: Train Loss: 0.1352, Val MRSE Loss: 0.1303, Val MAPE Loss: 0.2518, Val WroPerc: 0.1972
+Batch 40, MRSE Loss: 0.15
+Batch 80, MRSE Loss: 0.12
+Batch 120, MRSE Loss: 0.12
+Batch 160, MRSE Loss: 0.12
+Batch 200, MRSE Loss: 0.12
+Batch 240, MRSE Loss: 0.14
+Batch 280, MRSE Loss: 0.15
+Batch 320, MRSE Loss: 0.15
+Epoch 99: Train Loss: 0.1325, Val MRSE Loss: 0.1333, Val MAPE Loss: 0.2497, Val WroPerc: 0.2042
+Batch 40, MRSE Loss: 0.18
+Batch 80, MRSE Loss: 0.14
+Batch 120, MRSE Loss: 0.12
+Batch 160, MRSE Loss: 0.10
+Batch 200, MRSE Loss: 0.15
+Batch 240, MRSE Loss: 0.12
+Batch 280, MRSE Loss: 0.11
+Batch 320, MRSE Loss: 0.15
+Epoch 100: Train Loss: 0.1333, Val MRSE Loss: 0.1426, Val MAPE Loss: 0.2542, Val WroPerc: 0.2324
+Test MRSE Loss: 0.1559, Test MAPE Loss: 0.2768, Test WroPerc: 0.243
