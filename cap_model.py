@@ -44,6 +44,8 @@ class GAT(torch.nn.Module):
         x = torch.sigmoid(x)
         #print(f"x after sigmoid: shape: {x.shape}   x: {x}")
         # x = n * 1 
-        x = x.sum(dim=0)
+        #x = x.sum(dim=0)
         #print(f"x after sum: shape: {x.shape}   x: {x}")
-        return x
+        out = torch.zeros(batch.max().item() + 1, device=x.device)
+        out = out.scatter_add_(0, batch, x.squeeze())
+        return out
