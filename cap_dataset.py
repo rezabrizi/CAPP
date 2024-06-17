@@ -7,7 +7,7 @@ from collections import defaultdict
 from torch_geometric.data import Data, InMemoryDataset
 
 class CascadeRegression(InMemoryDataset):
-    def __init__(self, root, name, edge_index_path, task, observation):
+    def __init__(self, root, name, edge_index_path, task, observation, directed):
         assert task in ['classification', 'regression'], "Task must be either 'classification' or 'regression'"
         if task == 'classification':
             assert 0 <= observation <= 3, "Observation time must be between 0 and 3 for classification tasks"
@@ -15,9 +15,11 @@ class CascadeRegression(InMemoryDataset):
         self.name = name
         self.task = task
         self.observation = observation
+        self.directed = directed
         self.edge_index_tensor = self.get_edge_index(edge_index_path)
         super(CascadeRegression, self).__init__(root)
         self.load(self.processed_paths[0])
+        
 
     def get_edge_index (self, path):
         edge_df = pd.read_csv(path, sep = " ", header=None)
@@ -27,8 +29,9 @@ class CascadeRegression(InMemoryDataset):
         for _, row in edge_df.iterrows():
             sources.append(row[0])
             dests.append(row[1])
-            sources.append(row[1])
-            dests.append(row[0])
+            if not self.directed:
+                sources.append(row[1])
+                dests.append(row[0])
         return torch.tensor([sources, dests], dtype=torch.long)
 
     @property 
@@ -67,21 +70,27 @@ class CascadeRegression(InMemoryDataset):
         data = []
 
         for node_feature in node_features_data: 
-            node, degree_centrality, eigenvector_centrality, betweeness_centrality = node_feature.split()
-            node = int(node)   
-            centralities = [float(degree_centrality), float(eigenvector_centrality), float(betweeness_centrality), 0]
+            current_node_centralities = node_feature.split()
+            node = int(current_node_centralities[0])
+
+            func_float = lambda x: float(x)
+            centralities = [func_float(centrality) for centrality in current_node_centralities[1:]]
+            centralities.append(0)
             centralities = np.array(centralities)
             node_features[node] = centralities
+        print("Node Features are done being loaded")
 
         # Need to go through every cascade and create the Data object
         # depending on if this is a regression or classification task then the type of label is different
         # however, the X will always be the number of nodes time the node features which is going to be 
-        for cascade in cascades_data:
+        for index, cascade in enumerate(cascades_data):
+            if (index+1) % 100 == 0:
+                print (f"processed {index+1} cascades")
             cascade = cascade.strip().split()
             data_name = cascade[0]
             if self.task == "regression":
                 #seeds = list(map(int, cascade[1:-1]))
-                #activation_count = float(cascade[-1])  # This might be used for labels or further processing
+                #activation_count = float(cascade[-1])
                 activations = [node_activation.split(':') for node_activation in cascade[1:]]
                 seeds = [int(node) for node, time in activations if int(time) <= self.observation]
                 final_activations = [int(node) for node, _ in activations]
@@ -95,7 +104,7 @@ class CascadeRegression(InMemoryDataset):
             for node, features in node_features.items():
                 activation_status = 1 if node in seeds else 0
                 node_feature = copy.deepcopy(features)
-                node_feature[3] = activation_status
+                node_feature[-1] = activation_status
                 node_feature = torch.tensor(node_feature)
                 X[node] = node_feature
             

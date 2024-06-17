@@ -3,10 +3,10 @@ from torch_geometric.nn import GATConv, LayerNorm
 import torch.nn.functional as F
 import torch.nn as nn
 
-class GAT(torch.nn.Module):
+class GAT_v1(torch.nn.Module):
     def __init__(self, input_dim, hidden_dim, output_dim, num_layers):
-        # input dim is 4
-        super(GAT, self).__init__()
+        # input dim is the number of node features per node
+        super(GAT_v1, self).__init__()
         # mlp for encoding
         self.encoder = nn.Linear(input_dim, hidden_dim)
         # hidden dim is 64

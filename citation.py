@@ -6,7 +6,7 @@ index = ""
 refs = []
 year = ""
 citations = defaultdict(lambda: {'refs': [], 'year': None})
-with open("/Users/rezatabrizi/Downloads/outputacm.txt", "r") as f:
+with open("/Users/rezatabrizi/Downloads/.txt", "r") as f:
     file = f.read()
     file = file.split('#')
     
